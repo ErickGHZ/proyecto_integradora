@@ -1,0 +1,391 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+
+
+#titulo {
+  position: fixed;
+  width: 95%;
+  left: 2%;
+  background-color: transparent;
+  overflow: hidden;
+  font-size: 60px;
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+#contenedor1 {
+    position: fixed;
+    top: 13.5%;
+    left: 2%;
+    width: 23%;
+    height: 65%;
+    background-color: rgb(95, 95, 95);
+    overflow: hidden;
+    border-radius: 10px; /* Establece un valor adecuado para redondear las esquinas */
+  }
+
+#buscador {
+    height: 20%;
+    background-color: transparent;
+}
+
+#tabla-contenedor {
+  height: 68%;
+  background-color: transparent;
+  overflow-y: auto;
+  color: black; 
+  margin: 2%;
+}
+
+#editar{
+  height: 10%;
+  background-color: transparent;
+}
+
+#buscador form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+#editar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+#buscador input[type="submit"]{
+  width: 50%;
+  border-radius: 60px;
+  font-size: 15px;
+  background-color: rgba(100, 100, 100, 0.6);
+  color: white;
+  cursor: pointer;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#buscador input[type="submit"]:hover {
+  background-color: #0a0a0a;
+}
+
+#buscador input[type="text"]{
+  width: 80%;
+  border-radius: 60px;
+  font-size: 20px;
+  background-color: rgba(200, 200, 200, 0.6);
+  color: white;
+  cursor: pointer;
+  padding-left: 10px;
+  margin-top: 3%;
+  
+}
+#buscador input[type="text"]::placeholder {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1); /* Color del texto del marcador de posición */
+}
+
+
+
+.tabla1 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla1 th,
+.tabla1 td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla1 thead {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.tabla1 tbody {
+  background-color: white;
+}
+
+
+.tabla-contenedor tr.seleccionada {
+  background-color: rgba(200, 200, 200, 0.6);
+}
+
+
+#editar input[type="submit"]{
+  width: 60%;
+  border-radius: 60px;
+  font-size: 15px;
+  background-color: rgba(100, 100, 100, 0.6);
+  color: white;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+#editar input[type="submit"]:hover {
+  background-color: #0a0a0a;
+}
+
+
+
+
+
+
+
+
+
+
+#contenedor2 {
+  position: fixed;
+  top: 13.5%;
+  left: 27%;
+  width: 51%;
+  height: 81.5%;
+  background-color: rgba(100, 100, 100, 0.6);
+  overflow: hidden;
+  border-radius: 10px; /* Establece un valor adecuado para redondear las esquinas */
+  text-align: center;  
+}
+
+#titulo-contenedor2{
+  background-color: transparent;
+  color: #ffffff;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+#tabla-contenedor2{
+  background-color: transparent;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  color: black;
+}
+
+.tabla2 {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  
+}
+.tabla2 thead {
+  background-color: white;
+}
+
+.tabla2 th, td {
+  padding: 2px;
+  text-align: center;
+  border: 1px solid black;
+}
+.tabla2 td{
+  font-size: 11px;
+}
+.hora{
+  background-color: white;
+  color: black;
+}
+.tabla2 th #hora{
+  width: 12%;
+}
+
+.tabla2 th:not(#hora){
+  width: calc(88% / 6);
+}
+
+.selected {
+  border: 2px solid yellow;
+}
+
+.occupied {
+  background-color: red;
+}
+
+.available {
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contenedor3 {
+  position: fixed;
+  top: 13.5%;
+  left: 80%;
+  width: 18%;
+  height: 81.5%;
+  background-color: rgb(104, 104, 112, .5);
+  overflow: hidden;
+  border-radius: 10px; /* Establece un valor adecuado para redondear las esquinas */
+  text-align: center;  
+}
+#boton-contenedor3{
+  background-color: transparent;
+  height: 50%;
+  flex-direction: column;
+}
+
+#boton-contenedor3 button{
+  width: 70%;
+  border-radius: 60px;
+  font-size: 22px;
+  color: white;
+  
+  cursor: pointer;
+  margin-top: 30%;
+
+}
+
+#boton-contenedor3 button:hover {
+  background-color: #0a0a0a;
+}
+
+#disponible{
+  background-color: green;
+}
+
+#nodisponible{
+  background-color: red;
+}
+
+
+p{
+  margin-top: 60px;
+  font-size: 20px;
+  color: white;
+}
+
+#boton-contenedor3 input[type="text"]{
+  width: 20%;
+  border-radius: 60px;
+  font-size: 20px;
+  background-color: rgba(200, 200, 200, 0.6);
+  color: white;
+  padding-left: 10px;
+  margin-top: 3%;
+  align-content: center;
+  
+}
+
+
+
+
+
+#guardar{
+  background-color: transparent;
+  height: 50%;
+}
+
+
+#guardar form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#guardar input[type="submit"]{
+  width: 50%;
+  border-radius: 60px;
+  font-size: 25px;
+  background-color: rgba(100, 100, 100, 0.6);
+  color: white;
+  cursor: pointer;
+  margin-top: 50%;
+
+}
+
+#guardar input[type="submit"]:hover {
+  background-color: #0a0a0a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contenedor4 {
+  position: fixed;
+  top: 82%;
+  left: 2%;
+  width: 23%;
+  height: 13%;
+  background-color: rgb(104, 104, 112, .5);
+  overflow: hidden;
+  border-radius: 10px; /* Establece un valor adecuado para redondear las esquinas */
+
+}
+
+#volver{
+  height: 100%;
+  background-color: transparent;
+  color: #ffffff;
+
+}
+#volver form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#volver input[type="submit"] {
+  width: 50%; /* Cambia el ancho del input al 50% del ancho del contenedor */
+  padding: 10px;
+  border-radius: 60px;
+  font-size: 25px;
+  background-color: rgba(100, 100, 100, 0.6); /* Color de fondo gris oscuro y transparente */
+  color: white; /* Color del texto del botón */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  margin-top: 5%;
+}    
+
+#volver input[type="submit"]:hover {
+  background-color: #0a0a0a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

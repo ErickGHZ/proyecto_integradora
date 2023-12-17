@@ -1,0 +1,10 @@
+id_profesor,nombre_profesor,apellido_paterno_profesor,apellido_materno_profesor,email,telefono,grado_academico,especialidad
+1,Salvador,apellido1,apellido1,correo@correo.com,7751231231,Doctorado,Desarrollo de Software
+2,Juan Manuel,apellido1,apellido1,correo@correo.com,7751231231,Doctorado,Calculo Diferencial
+3,Maria Elena,apellido1,apellido1,correo@correo.com,7751231231,Licenciatura,Probabilidad y Estadistica
+4,Oscar,apellido1,apellido1,correo@correo.com,7751231231,Doctorado,Seguridad Informática
+5,Elizabeth,apellido1,apellido1,correo@correo.com,7751231231,Doctorado,Seguridad Informática
+6,Victor,apellido1,apellido1,correo@correo.com,7751231231,Maestria,Bases de datos
+7,Yadira,apellido1,apellido1,correo@correo.com,7751231231,Doctorado,Ingles
+8,Rigoberto,apellido1,apellido1,correo@correo.com,7751231231,Licenciatura,Desarrollo Web
+9,Teresa,apellido1,apellido1,correo@correo.com,7751231231,Maestria,Psicologia

@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  #titulo {
+    position: fixed;
+    width: 95%;
+    left: 2%;
+    top: 5%;
+    background-color: transparent;
+    overflow: hidden;
+    font-size: 60px;
+    font-family: "Nunito", sans-serif;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #contenedor1 {
+      position: fixed;
+      top: 20%;
+      left: 30%;
+      width: 40%;
+      height: 60%;
+      background-color: rgb(95, 95, 95);
+      overflow: hidden;
+      border-radius: 10px; /* Establece un valor adecuado para redondear las esquinas */
+    }
+  
+
+    #titulo-contenedor1 {
+      height: 20%;
+      font-size: 30px; /* Esto puede estar correcto dependiendo de lo que quieras lograr */
+      text-align: center; /* Usamos "text-align" en lugar de "align" para centrar el contenido */
+  }
+
+
+#volver form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#volver input[type="submit"]{
+  width: 30%;
+  border-radius: 60px;
+  font-size: 25px;
+  background-color: rgba(100, 100, 100, 0.6);
+  color: white;
+  cursor: pointer;
+  margin-top:20%;
+}
+
+#volver input[type="submit"]:hover {
+  background-color: #0a0a0a;
+}
+#carrera{
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: rgba(200, 200, 200, 0.6); /* Color de fondo gris claro y transparente */
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  color: white;
+  transform: scale(1.2);
+}
+
+#grupo{
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: rgba(200, 200, 200, 0.6); /* Color de fondo gris claro y transparente */
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  color: white;
+  transform: scale(1.2);
+}
+#centro{
+    text-align: center;
+    align-items: center;
+}
+
+
+button{
+  width: 40%;
+  border-radius: 60px;
+  font-size: 25px;
+  background-color: rgba(100, 100, 100, 0.6);
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin-top:3%;
+}

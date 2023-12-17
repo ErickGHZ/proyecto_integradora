@@ -1,0 +1,10 @@
+id_materia,nombre_materia,horas,horas_semanales,id_grupo
+1,Base de datos para aplicaciones web,112,7,1
+2,Sociocultural,64,4,1
+3,Probabilidad y Estadistica,80,5,1
+4,Tutoria,16,1,1
+5,Sistemas Operativos,80,5,1
+6,Integradora,32,2,1
+7,Ingles III,64,4,1
+8,Aplicaciones web,96,6,1
+9,Formacion Sociocultural,32,2,1

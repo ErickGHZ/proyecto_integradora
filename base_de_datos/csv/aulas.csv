@@ -1,0 +1,4 @@
+id_aula,nombre_aula,capacidad,tipo_aula,edificio
+1,K2,32,Laboratorio,k
+2,G1,25,Laboratorio,G
+2,C1,28,Aula,C
